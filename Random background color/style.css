@@ -1,0 +1,44 @@
+body{
+    background-color: transparent;
+    transition: all .4s ease;
+    position: relative;
+
+}
+
+.container
+{
+    width: 98vw;
+    height: 95vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#color-name{
+    width: 615px;
+    height: 70px;
+    font-size: 35px;
+    border: 5px solid black;
+    border-radius: 15px;
+    display: flex;
+    font-weight: bold;
+    background-color: white;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 8px 8px 3px black;
+    padding: 5px;
+}
+
+#btn{
+    width: 640px;
+    height: 90px;
+    background-color: gray;
+    font-size:29px;
+    cursor: pointer;
+    box-shadow: 8px 8px 3px black;
+    border-radius: 20px;
+    border: 5px solid black;
+    outline: none;  
+
+}
